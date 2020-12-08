@@ -9,7 +9,7 @@ var ifStart = false;
 
 function inPerson(){
     $('#successUser').html('');
-    var inUser=document.getElementById('User').value.split(',');
+    var inUser=document.getElementById('User').value.split(/[\n\s+,，；;]/g);
     let a = document.getElementById('randomNumber').value;
     console.log('value ', +a);
     if(+a == 0)
