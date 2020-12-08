@@ -1,0 +1,48 @@
+body {
+  background: url(../img/back.jpg);
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  border-bottom: 5px solid rgba(56, 56, 56, 0.3);
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 0px;
+}
+.cont {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: auto;
+  min-height: 100vh;
+  color: #292929;
+  padding: 0 50px;
+}
+.cont .title {
+  line-height: 40px;
+  margin-top: 50px;
+  height: 100px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #292929;
+  width: 100%;
+  text-align: center;
+}
+.cont .btn-box {
+  margin-top: 20px;
+}
+.cont .btn-box .btn {
+  background-color: #292929;
+  color: #fff;
+}
+.random {
+  font-size: 40px;
+  color: #3c3c3c;
+}
+.success .suc-item {
+  font-size: 40px;
+  background-color: #3c3c3c;
+  height: 70px;
+  width: auto;
+  padding: 15px 20px;
+  border-radius: 33px;
+}
